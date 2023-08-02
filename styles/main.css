@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&display=swap');
+/* fonts */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+/* fonts */
+
+.full-height{
+    height:100vh;
+}
+  
+/* navigation */
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.nav-link:hover {
+    color: #18382B;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #18382B;
+    color: #18382B;
+}
+
+/* homepage */
+.hero-image{
+    height: 90vh;
+    position: relative;
+    float: right;
+}
+
+/* components */
+button{
+    border: none;
+    padding:16px;
+    border-radius: 8px;
+    background: #18382b;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+/* accordion */
+.accordion-item{
+    width: 100%;
+   
+    position: relative;
+    border: none;
+    padding:16px;
+   
+    background: #b1d1c4;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+    float: center;
+}
+
+.accordion-header{
+    background: #18382b;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+
+.accordion-button{
+   
+    border-radius: 0%;
+    border-color: #e6f2e9;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+
+/* carousel */
+.carousel-item{
+    background-color: #e6f2e9;
+}
+.carousel-control-next, .carousel-control-prev{
+    top: auto;
+    right:auto;
+    left: 24px;
+    bottom:24px;
+    width:auto;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.carousel-control-next{
+    left: 84px;
+
+}
+
+/* card */
+.card{
+    border-radius:  150px 150px 12px 12px;
+    background: #f3f3f3; 
+    text-align: center;
+    height: 440px;
+    border: none;
+}
+
+.card-img-top{
+    height: 320px;
+    margin:auto;
+    width: auto;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-img-top.small{
+    height: 100px;
+   
+}
+
+.card-text{
+    color:#18382B
+}
+
+/* table */
+.table{
+    margin-top: 160px;
+    
+}
+
+.table-img{
+    height: 100px;
+}
+
+
+
